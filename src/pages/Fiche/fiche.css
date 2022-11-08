@@ -1,0 +1,200 @@
+.title {
+      font-size: 36px;
+      margin: 30px 0 0 0;
+}
+
+.title,
+.location {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      line-height: 142.6%;
+      color: #FF6060;
+}
+
+.flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.text {
+      display: flex;
+      flex-direction: column;
+}
+
+.mainFiche {
+      padding: 0 100px;
+}
+
+.containerStyles {
+      width: 100%;
+      height: 415px;
+      margin: 0 auto;
+}
+
+.titleLocation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.location {
+      font-size: 18px;
+      margin: 0 0 20px 0;
+}
+
+.tagContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 34px
+}
+
+.tagWrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+}
+
+.ownerWrap {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      align-items: center;
+}
+
+.ownerWrap>img {
+      border-radius: 35px;
+      width: 64px;
+      height: 64px;
+}
+
+.ownerWrap>p {
+      width: 100px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 142.6%;
+      text-align: right;
+      color: #FF6060;
+}
+
+.ratingOwner {
+      flex-direction: column-reverse;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 34px;
+      gap: 30px;
+}
+
+.rating {
+      gap: 10px;
+      display: flex;
+}
+
+.collapseWrap {
+      display: flex;
+      gap: 76px;
+      margin-bottom: 35px;
+}
+
+
+.collapseWrap>section {
+      width: 50%;
+}
+
+.collapseWrap>p,
+.content-text {
+      font-size: 18px;
+      list-style-type: none;
+}
+
+@media screen and (max-width: 1250px) {
+      h1 {
+            font-size: 13px;
+      }
+
+      .fleche {
+            font-size: 15px;
+      }
+
+      .flex {
+            display: initial;
+      }
+
+      .containerStyles>div>div>img {
+            width: 11px;
+            margin: 0;
+      }
+
+      .mainFiche {
+            padding: 0px 20px 0px 20px;
+            height: 100%;
+      }
+
+      .title {
+            font-size: 18px;
+      }
+
+      .bandeau {
+            height: 30px;
+      }
+
+      .containerStyles {
+            width: 100%;
+            height: 255px;
+      }
+
+      .tagContent {
+            display: initial;
+            margin-bottom: 0;
+      }
+
+      .tag {
+            height: 18px;
+      }
+
+      .ratingOwner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-direction: row;
+            gap: 0;
+      }
+
+      .rating {
+            gap: 5px;
+            display: flex;
+      }
+
+      .rating>img {
+            width: 15px;
+            height: 15px;
+      }
+
+      .tagWrap {
+            margin-bottom: 20px;
+      }
+
+      .ownerWrap>img {
+            width: 32px;
+            height: 32px;
+      }
+
+      .ownerWrap>p {
+            font-size: 12px;
+      }
+
+      .collapseWrap {
+            display: initial;
+      }
+
+      .collapseWrap>section {
+            width: 100%;
+      }
+
+}

@@ -1,0 +1,102 @@
+.mainAbout {
+      margin: 0 100px;
+}
+
+h1 {
+      color: #FFFFFF;
+      font-weight: 500;
+}
+
+.divImgAbout {
+      margin-bottom: 31px;
+}
+
+.divImgAbout>img {
+      border-radius: 25px;
+      width: 100%;
+      filter: brightness(.7);
+}
+
+.divCollapse {
+      margin: 0 50px 40px 50px;
+      flex-direction: column;
+      align-items: center;
+}
+
+.divCollapse>section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.bandeau {
+      width: 100%;
+      background: #FF6060;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      height: 47px;
+      margin-bottom: 31px;
+      border: none;
+      cursor: pointer;
+}
+
+.fleche {
+      transform: rotate(270deg);
+      color: white;
+}
+
+.text-wrapper {
+      background: #F7F7F7;
+      border-radius: 5px;
+      position: relative;
+      top: -31px;
+}
+
+.content-text {
+      padding: 36px 27px 19px 18px;
+      color: #FF6060;
+}
+
+p,
+h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 142.6%;
+}
+
+@media screen and (max-width: 1250px) {
+      .divCollapse {
+            margin: 0;
+            margin-bottom: 30px;
+      }
+
+
+      .divImgAbout {
+            margin-bottom: 20px;
+      }
+
+      .mainAbout {
+            margin: 0 20px;
+      }
+
+      .divImgAbout>img {
+            overflow: hidden;
+            object-fit: cover;
+            height: 225px;
+      }
+
+      .divCollapse>section {
+            min-height: 30px;
+      }
+
+      .content-text {
+            font-size: 12px !important;
+            padding: 23.08px 6.91px 52.58px 11.51px;
+      }
+}
